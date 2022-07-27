@@ -1,0 +1,124 @@
+.nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  max-width: fit-content;
+  background-color: #4469ae;
+}
+
+.credentials {
+  display: flex;
+  gap: 5px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  padding: 10px;
+  min-width: 420px;
+  max-width: 420px;
+  gap: 15px;
+}
+
+.content {
+  font-size: 25px;
+  overflow-wrap: break-word;
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.username {
+  color: #4469ae;
+  font-weight: 600;
+}
+
+.ratePost {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.likeContainer {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.fadeFont {
+  color: #535353;
+  font-weight: 600;
+}
+
+.commentContainer {
+  display: flex;
+}
+
+.commentContainer > input {
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 3px;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.btn {
+  background-color: #4469ae;
+  padding: 5px;
+  color: #fff;
+  border: none;
+  max-width: fit-content;
+  align-self: flex-end;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.deleteBtn {
+  background-color: #940000;
+  padding: 8px;
+  color: #fff;
+  border: none;
+  max-width: fit-content;
+  align-self: flex-end;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.form {
+  padding: 30px 10px 10px 10px;
+  background-color: #ececec;
+  width: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  cursor: pointer;
+}
